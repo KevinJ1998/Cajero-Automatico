@@ -80,16 +80,73 @@ create procedure transactions
 @money money,
 @date datetime,
 @destiny varchar(15),
-@accountid int
+@accountid int,
+@iduser int,
+@typeaccount int
 as
+begin
 insert into transaction_
 (opIdFK,transAmMoney,transdate,transDestinyAcc,accIdFK)
 values
 (@OpId, @money,@date,@destiny,@accountid)
+exec Retiro @monto = @money, @userid = @iduser, @accountType = @typeaccount
+exec Deposito @monto = @money, @userid = @iduser, @accountType = @typeaccount
+end
 go
 
-create proc login_user
-@ci varchar(15),
-@password varchar(25)
+create procedure Consulta
+@userid int,
+@accountType int
 as
- if (select count(*) from user_ where userCi like @ci) 
+Select accAvMoney from account where
+userIdFK=@userid and accTypeFK=@accountType
+
+go
+create procedure Retiro
+@monto money,
+@userid int,
+@accountType int
+as
+if ((select accAvMoney from account) < @monto or (select accAvMoney from account) = 0)
+ begin
+	raiserror('Saldo insuficiente',16,1)
+ end
+else
+ begin
+	update account
+	set accAvMoney = accAvMoney-@monto
+	where userIdFK=@userid and accTypeFK=@accountType
+ end
+
+go
+create procedure Deposito
+@monto money,
+@userid int,
+@accountType int
+as
+update account
+set accAvMoney = accAvMoney+@monto
+where userIdFK=@userid and accTypeFK=@accountType
+go
+
+create proc _login 
+@userci varchar(15),
+@pwd varchar(25)
+as
+select * from user_ where
+userCi = @userci and userPwd = @pwd
+go
+
+/*Triggers*/
+create trigger confirm_transaction
+on transaction_
+for insert
+as
+	if (select count(*) from inserted)>1
+	begin
+	print 'Transacction realizada correctamente'
+end
+go
+
+
+
