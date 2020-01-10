@@ -10,29 +10,15 @@ using System.Windows.Forms;
 
 namespace CajeroAutomático
 {
-    public partial class formLogin : Form
+    public partial class Transferencia2 : Form
     {
- 
-        public formLogin()
+        public Transferencia2()
         {
             InitializeComponent();
         }
 
-        private void formLogin_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-            
-            
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            Opciones opc = new Opciones();
-            opc.Show();
             this.Hide();
         }
     }

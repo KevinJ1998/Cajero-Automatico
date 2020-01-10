@@ -1,0 +1,16 @@
+C:\Users\franklin.zambrano\Documents\Universidad\Cuarto Semestre\Base de Datos 2\Cajero\CajeroAutomático\bin\Debug\CajeroAutomático.exe.config
+C:\Users\franklin.zambrano\Documents\Universidad\Cuarto Semestre\Base de Datos 2\Cajero\CajeroAutomático\bin\Debug\CajeroAutomático.exe
+C:\Users\franklin.zambrano\Documents\Universidad\Cuarto Semestre\Base de Datos 2\Cajero\CajeroAutomático\bin\Debug\CajeroAutomático.pdb
+C:\Users\franklin.zambrano\Documents\Universidad\Cuarto Semestre\Base de Datos 2\Cajero\CajeroAutomático\obj\Debug\CajeroAutomático.csprojAssemblyReference.cache
+C:\Users\franklin.zambrano\Documents\Universidad\Cuarto Semestre\Base de Datos 2\Cajero\CajeroAutomático\obj\Debug\CajeroAutomático.formLogin.resources
+C:\Users\franklin.zambrano\Documents\Universidad\Cuarto Semestre\Base de Datos 2\Cajero\CajeroAutomático\obj\Debug\CajeroAutomático.Properties.Resources.resources
+C:\Users\franklin.zambrano\Documents\Universidad\Cuarto Semestre\Base de Datos 2\Cajero\CajeroAutomático\obj\Debug\CajeroAutomático.csproj.GenerateResource.cache
+C:\Users\franklin.zambrano\Documents\Universidad\Cuarto Semestre\Base de Datos 2\Cajero\CajeroAutomático\obj\Debug\CajeroAutomático.exe
+C:\Users\franklin.zambrano\Documents\Universidad\Cuarto Semestre\Base de Datos 2\Cajero\CajeroAutomático\obj\Debug\CajeroAutomático.pdb
+C:\Users\franklin.zambrano\Documents\Universidad\Cuarto Semestre\Base de Datos 2\Cajero\CajeroAutomático\obj\Debug\CajeroAutomático.Opciones.resources
+C:\Users\franklin.zambrano\Documents\Universidad\Cuarto Semestre\Base de Datos 2\Cajero\CajeroAutomático\obj\Debug\CajeroAutomático.Consulta.resources
+C:\Users\franklin.zambrano\Documents\Universidad\Cuarto Semestre\Base de Datos 2\Cajero\CajeroAutomático\obj\Debug\CajeroAutomático.Retiro.resources
+C:\Users\franklin.zambrano\Documents\Universidad\Cuarto Semestre\Base de Datos 2\Cajero\CajeroAutomático\obj\Debug\CajeroAutomático.Retiro2.resources
+C:\Users\franklin.zambrano\Documents\Universidad\Cuarto Semestre\Base de Datos 2\Cajero\CajeroAutomático\obj\Debug\CajeroAutomático.Retiro3.resources
+C:\Users\franklin.zambrano\Documents\Universidad\Cuarto Semestre\Base de Datos 2\Cajero\CajeroAutomático\obj\Debug\CajeroAutomático.Transferencia.resources
+C:\Users\franklin.zambrano\Documents\Universidad\Cuarto Semestre\Base de Datos 2\Cajero\CajeroAutomático\obj\Debug\CajeroAutomático.Transferencia2.resources
