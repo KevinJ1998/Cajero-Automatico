@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnConsulta = new System.Windows.Forms.Button();
+            this.btnTransf = new System.Windows.Forms.Button();
+            this.btnRetiro = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -46,47 +46,47 @@
             this.label1.Text = "¿Qué desea hacer?";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // button1
+            // btnConsulta
             // 
-            this.button1.Font = new System.Drawing.Font("Franklin Gothic Demi", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(67, 101);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(95, 28);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "CONSULTA";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnConsulta.Font = new System.Drawing.Font("Franklin Gothic Demi", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsulta.Location = new System.Drawing.Point(67, 101);
+            this.btnConsulta.Name = "btnConsulta";
+            this.btnConsulta.Size = new System.Drawing.Size(95, 28);
+            this.btnConsulta.TabIndex = 1;
+            this.btnConsulta.Text = "CONSULTA";
+            this.btnConsulta.UseVisualStyleBackColor = true;
+            this.btnConsulta.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnTransf
             // 
-            this.button2.Font = new System.Drawing.Font("Franklin Gothic Demi", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(251, 127);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(144, 28);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "TRANSFERENCIA";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnTransf.Font = new System.Drawing.Font("Franklin Gothic Demi", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTransf.Location = new System.Drawing.Point(251, 127);
+            this.btnTransf.Name = "btnTransf";
+            this.btnTransf.Size = new System.Drawing.Size(144, 28);
+            this.btnTransf.TabIndex = 2;
+            this.btnTransf.Text = "TRANSFERENCIA";
+            this.btnTransf.UseVisualStyleBackColor = true;
+            this.btnTransf.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // btnRetiro
             // 
-            this.button3.Font = new System.Drawing.Font("Franklin Gothic Demi", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(67, 159);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(95, 28);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "RETIRO";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btnRetiro.Font = new System.Drawing.Font("Franklin Gothic Demi", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRetiro.Location = new System.Drawing.Point(67, 159);
+            this.btnRetiro.Name = "btnRetiro";
+            this.btnRetiro.Size = new System.Drawing.Size(95, 28);
+            this.btnRetiro.TabIndex = 3;
+            this.btnRetiro.Text = "RETIRO";
+            this.btnRetiro.UseVisualStyleBackColor = true;
+            this.btnRetiro.Click += new System.EventHandler(this.button3_Click);
             // 
             // Opciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(452, 247);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnRetiro);
+            this.Controls.Add(this.btnTransf);
+            this.Controls.Add(this.btnConsulta);
             this.Controls.Add(this.label1);
             this.Name = "Opciones";
             this.Text = "Opciones";
@@ -98,8 +98,8 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnConsulta;
+        private System.Windows.Forms.Button btnTransf;
+        private System.Windows.Forms.Button btnRetiro;
     }
 }

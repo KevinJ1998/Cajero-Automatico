@@ -32,7 +32,7 @@
             this.txtUser = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtPassword = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnLogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -71,18 +71,18 @@
             this.txtPassword.Size = new System.Drawing.Size(167, 20);
             this.txtPassword.TabIndex = 3;
             // 
-            // button1
+            // btnLogin
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button1.Font = new System.Drawing.Font("Berlin Sans FB Demi", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(126, 150);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 45);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "INICIAR SESIÓN";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnLogin.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.btnLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnLogin.Font = new System.Drawing.Font("Berlin Sans FB Demi", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.Location = new System.Drawing.Point(126, 150);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(120, 45);
+            this.btnLogin.TabIndex = 4;
+            this.btnLogin.Text = "INICIAR SESIÓN";
+            this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.button1_Click);
             // 
             // formLogin
             // 
@@ -90,7 +90,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(371, 225);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtUser);
@@ -109,7 +109,7 @@
         private System.Windows.Forms.TextBox txtUser;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtPassword;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnLogin;
     }
 }
 
