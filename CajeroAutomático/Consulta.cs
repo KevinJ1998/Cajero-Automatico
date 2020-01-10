@@ -10,26 +10,19 @@ using System.Windows.Forms;
 
 namespace CajeroAutomático
 {
-    public partial class formLogin : Form
+    public partial class Consulta : Form
     {
- 
-        public formLogin()
+        public Consulta()
         {
             InitializeComponent();
         }
 
-        private void formLogin_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-            
-            
-        }
-
         private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
         {
             Opciones opc = new Opciones();
             opc.Show();
