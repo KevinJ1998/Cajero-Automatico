@@ -15,6 +15,7 @@ namespace CajeroAutomático
     {
         public Consulta()
         {
+            
             InitializeComponent();
         }
 
@@ -34,13 +35,27 @@ namespace CajeroAutomático
         {
             try
             {
-                SqlConnection sqlcon = new SqlConnection(@"Data Source=DESKTOP-8CSIPAS\TEW_SQLEXPRESS;Initial Catalog=cajero;User ID=Kevin;Password=123456");
-                SqlCommand cmd = new SqlCommand("_login @userci,@pwd", sqlcon);
+                formLogin user = new formLogin();
+                SqlConnection sqlcon = new SqlConnection(@"Data Source=MSI;Initial Catalog=cajero;User ID=team;Password=12345");
+                SqlCommand cmd = new SqlCommand("select accAvMoney from account where userIdFK=2 and accTypeFK=1", sqlcon);
+                saldo.Text.Replace("",cmd.ToString());
 
             } catch (Exception error)
             {
 
             }
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        /*private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //cmbTipoCuenta.Items.Add("Ahorro");
+            
+
+        }*/
     }
 }

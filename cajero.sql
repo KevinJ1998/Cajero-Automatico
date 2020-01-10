@@ -94,6 +94,7 @@ exec Deposito @monto = @money, @userid = @iduser, @accountType = @typeaccount
 end
 go
 
+
 create procedure Consulta
 @userid int,
 @accountType int
@@ -147,6 +148,12 @@ as
 	print 'Transacction realizada correctamente'
 end
 go
+
+select * from account
+select *from user_
+
+update account 
+set accAvMoney=20 where userIdFK=2 and accTypeFK=1
 
 
 

@@ -34,7 +34,7 @@ namespace CajeroAutomático
         {
             try
             {
-                SqlConnection sqlcon = new SqlConnection(@"Data Source=DESKTOP-8CSIPAS\TEW_SQLEXPRESS;Initial Catalog=cajero;User ID=Kevin;Password=123456");
+                SqlConnection sqlcon = new SqlConnection(@"Data Source=MSI;Initial Catalog=cajero;User ID=team;Password=12345");
                 SqlCommand cmd = new SqlCommand("_login @userci,@pwd", sqlcon);
                 cmd.Parameters.AddWithValue("@userci", txtUser.Text);
                 cmd.Parameters.AddWithValue("@pwd", txtPassword.Text);
